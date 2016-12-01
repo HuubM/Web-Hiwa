@@ -206,6 +206,8 @@ hr.small {
     margin: 0 auto;
 }
 
+
+
 .img-portfolio:hover {
     opacity: 0.8;
 }
@@ -221,6 +223,10 @@ hr.small {
 }
 
 /* Map */
+
+.margin-top {
+    margin-top: 30px;
+}
 
 .map {
     height: 500px;
