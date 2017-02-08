@@ -41,6 +41,46 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   animation: float 5s infinite;
 }
+
+.table-medium {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 192px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+
+.table-small {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 128px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+
+
+.imgport {
+    height: 500px;
+   
+    display: inline-block;
+    
+    margin-bottom:20px;
+   
+}
+
+.center{
+    text-align: center;
+}
  
 th {
   color:#D5DDE5;;
@@ -333,14 +373,13 @@ hr.small {
 }
 
 .portfolio-item {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    margin-top:25px;
 }
 
 .img-portfolio {
     margin: 0 auto;
 }
-
-
 
 .img-portfolio:hover {
     opacity: 0.8;
